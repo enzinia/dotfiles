@@ -1,0 +1,14 @@
+Host gitlab.dgtakano.loc
+  HostName gitlab.dgtakano.loc
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/DGgit_rsa
+
+Host bitbucket.org
+  HostName bitbucket.org
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/bitbucket_rsa
+
+Host github.com
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/github_rsa
