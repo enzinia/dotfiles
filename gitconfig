@@ -1,0 +1,13 @@
+[user]
+	name = <name>
+	email = <email>
+[alias]
+	stash-unapply = !git stash show -p | git apply -R
+	co = checkout
+	st = status
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+[push]
+	default = simple
+[core]
+	editor = vim
+	autocrlf = input
