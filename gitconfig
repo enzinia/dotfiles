@@ -6,6 +6,7 @@
 	co = checkout
 	st = status
 	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	cleanup = "!git branch --merged | egrep -v '(^\\*|master|dev)' | xargs git branch -d"
 [push]
 	default = simple
 [core]
